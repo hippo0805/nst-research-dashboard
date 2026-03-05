@@ -13,8 +13,8 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="h-16 bg-white border-b border-gray-200 flex items-center px-8">
-      <h2 className="text-xl font-semibold text-gray-900">
+    <header className="h-14 md:h-16 bg-white border-b border-gray-200 flex items-center px-4 md:px-8 pl-14 md:pl-8">
+      <h2 className="text-lg md:text-xl font-semibold text-gray-900">
         {pageTitles[pathname] ?? ""}
       </h2>
     </header>

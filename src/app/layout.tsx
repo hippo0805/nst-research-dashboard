@@ -13,9 +13,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="ko">
       <body className="font-sans bg-gray-50">
         <Sidebar />
-        <div className="ml-64">
+        <div className="md:ml-64">
           <Header />
-          <main className="p-8">{children}</main>
+          <main className="p-4 md:p-8">{children}</main>
         </div>
       </body>
     </html>

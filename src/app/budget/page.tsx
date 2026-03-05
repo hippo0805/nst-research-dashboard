@@ -11,14 +11,14 @@ export default function BudgetPage() {
 
   return (
     <div className="space-y-8">
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 md:gap-4">
         <StatCard label={`${latest.year}년 총 예산`} value={`${(latest.total / 10000).toFixed(1)}조 원`} accent />
         <StatCard label="전년 대비" value={latest.changeRate ?? "-"} />
         <StatCard label="단위" value={latest.unit} />
       </div>
 
       <SectionTitle title="예산 분석" />
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
         <BudgetLineChart data={budget.yearly.map(({ year, total }) => ({ year, total }))} />
         <BudgetPieChart data={pieData} year={latest.year} />
       </div>

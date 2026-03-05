@@ -10,7 +10,7 @@ export default function PerformancePage() {
       {/* KPI */}
       <div>
         <SectionTitle title="주요 성과지표 (KPI)" description="2026년 목표 기준" />
-        <div className="grid grid-cols-4 gap-4 mb-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-6">
           {performance.kpis.map((kpi) => (
             <div key={kpi.name} className="bg-white rounded-xl p-5 shadow-sm text-center">
               <p className="text-sm text-gray-500">{kpi.name}</p>

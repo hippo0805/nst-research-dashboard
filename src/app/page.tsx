@@ -9,7 +9,7 @@ export default function OverviewPage() {
   return (
     <div className="space-y-10">
       {/* 핵심 수치 */}
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
         <StatCard label="설립일" value="2014.06.30" accent />
         <StatCard label="소속 출연기관" value={`${institutes.length}개`} />
         <StatCard label="소관부처" value={organization.parentOrg} />
@@ -17,7 +17,7 @@ export default function OverviewPage() {
       </div>
 
       {/* 미션 & 비전 */}
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
         <div className="bg-white rounded-xl p-6 shadow-sm">
           <h4 className="text-sm font-semibold text-gray-500 mb-2">미션</h4>
           <p className="text-gray-900">{organization.mission}</p>
@@ -31,7 +31,7 @@ export default function OverviewPage() {
       {/* 소속 출연기관 */}
       <div>
         <SectionTitle title="소속 출연연구기관" description={`과학기술정보통신부 산하 ${institutes.length}개 정부출연연구기관 (2024년 우주항공청 출범으로 항공우주연·천문연 이관)`} />
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
           {institutes.map((inst) => (
             <InstituteCard key={inst.abbr} {...inst} />
           ))}

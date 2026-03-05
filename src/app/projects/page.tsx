@@ -8,7 +8,7 @@ export default function ProjectsPage() {
   return (
     <div className="space-y-8">
       <SectionTitle title="주요사업 현황" description="NST가 운영하는 핵심 사업 및 성과 사례" />
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
         {projects.map((project) => (
           <ProjectCard key={project.name} {...project} />
         ))}
