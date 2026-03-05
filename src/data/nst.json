@@ -1,0 +1,95 @@
+{
+  "organization": {
+    "name": "국가과학기술연구회",
+    "nameEn": "National Research Council of Science & Technology",
+    "abbr": "NST",
+    "established": "2014-06-30",
+    "mission": "정부출연연구기관 지원·육성 및 체계적 관리를 통한 국가 과학기술 경쟁력 강화",
+    "vision": "국가 과학기술을 선도하는 창조적 원천기술 연구개발",
+    "location": "세종특별자치시 시청대로 370 세종국책연구단지",
+    "chairman": "김영식",
+    "parentOrg": "과학기술정보통신부"
+  },
+  "institutes": [
+    { "name": "한국과학기술연구원", "abbr": "KIST", "field": "종합", "description": "국내 최초 종합연구기관", "subOrgs": ["국가녹색기술연구소"] },
+    { "name": "한국기초과학지원연구원", "abbr": "KBSI", "field": "기초과학", "description": "대형 연구장비 운영 및 기초과학 지원" },
+    { "name": "한국생명공학연구원", "abbr": "KRIBB", "field": "생명공학", "description": "바이오기술 연구개발" },
+    { "name": "한국과학기술정보연구원", "abbr": "KISTI", "field": "과학기술정보", "description": "과학기술 정보 수집·분석·유통" },
+    { "name": "한국한의학연구원", "abbr": "KIOM", "field": "한의학", "description": "한의학 과학화 및 세계화" },
+    { "name": "한국생산기술연구원", "abbr": "KITECH", "field": "생산기술", "description": "중소·중견기업 생산기술 지원" },
+    { "name": "한국전자통신연구원", "abbr": "ETRI", "field": "ICT", "description": "정보통신기술 연구개발", "subOrgs": ["국가보안기술연구소"] },
+    { "name": "한국건설기술연구원", "abbr": "KICT", "field": "건설", "description": "건설·국토 인프라 기술 연구" },
+    { "name": "한국철도기술연구원", "abbr": "KRRI", "field": "철도", "description": "철도 기술 연구개발" },
+    { "name": "한국표준과학연구원", "abbr": "KRISS", "field": "표준과학", "description": "국가 측정표준 확립" },
+    { "name": "한국식품연구원", "abbr": "KFRI", "field": "식품", "description": "식품 과학기술 연구", "subOrgs": ["세계김치연구소"] },
+    { "name": "한국지질자원연구원", "abbr": "KIGAM", "field": "지질자원", "description": "지질자원 탐사·개발 연구" },
+    { "name": "한국기계연구원", "abbr": "KIMM", "field": "기계", "description": "기계 및 제조 기술 연구" },
+    { "name": "한국에너지기술연구원", "abbr": "KIER", "field": "에너지", "description": "에너지 기술 연구개발" },
+    { "name": "한국전기연구원", "abbr": "KERI", "field": "전기", "description": "전기·전력 기술 연구" },
+    { "name": "한국화학연구원", "abbr": "KRICT", "field": "화학", "description": "화학 기술 연구개발", "subOrgs": ["국가독성과학연구소"] },
+    { "name": "한국원자력연구원", "abbr": "KAERI", "field": "원자력", "description": "원자력 기술 연구개발" },
+    { "name": "한국재료연구원", "abbr": "KIMS", "field": "재료", "description": "소재·재료 기술 연구" },
+    { "name": "한국핵융합에너지연구원", "abbr": "KFE", "field": "핵융합", "description": "핵융합 에너지 연구" }
+  ],
+  "projects": [
+    {
+      "name": "융합연구사업",
+      "category": "R&D",
+      "description": "출연(연) 중심 오픈랩(Open-Lab) 형태의 융합연구 수행. 창의형, 융합연구단, 융합클러스터, 선행융합 등.",
+      "status": "운영 중",
+      "cases": [
+        { "title": "융합연구 권리·사업화 지원", "year": 2022, "description": "출연연 연구성과의 권리 확보 및 사업화 촉진", "outcome": "우수사례집 발간" }
+      ]
+    },
+    {
+      "name": "기술사업화추진단",
+      "category": "사업화",
+      "description": "출연연 연구성과의 기술이전 및 사업화 체계적 지원. 2025년 조직 개편으로 신설.",
+      "status": "2025 신설",
+      "cases": [
+        { "title": "KIMM 역대 최대 기술료 수입", "year": 2024, "description": "한국기계연구원 기술사업화 고도화", "outcome": "역대 최대 기술료 수입 달성" }
+      ]
+    },
+    {
+      "name": "국가과학AI연구소",
+      "category": "AI",
+      "description": "AI 기반 과학연구 혁신을 위한 전담 조직. 2025년 6월 설치 예정.",
+      "status": "2025 설치 예정",
+      "cases": []
+    },
+    {
+      "name": "중소벤처기업 최고멘토링과정",
+      "category": "협력",
+      "description": "23개 출연연 참여, 중소벤처기업 대상 기술 멘토링 프로그램.",
+      "status": "운영 중",
+      "cases": []
+    },
+    {
+      "name": "신진연구자 지원사업",
+      "category": "인력",
+      "description": "신진 과학기술인의 연구역량 강화 및 자립 지원.",
+      "status": "운영 중",
+      "cases": []
+    }
+  ],
+  "budget": {
+    "yearly": [
+      { "year": 2023, "total": 20000, "unit": "억 원", "breakdown": { "출연금": 15000, "자체수입": 3000, "기타": 2000 } },
+      { "year": 2024, "total": 20000, "unit": "억 원", "breakdown": { "출연금": 14500, "자체수입": 3200, "기타": 2300 }, "changeRate": "R&D 예산 감소" },
+      { "year": 2025, "total": 22500, "unit": "억 원", "breakdown": { "출연금": 17000, "자체수입": 3500, "기타": 2000 }, "changeRate": "+12.4%" }
+    ]
+  },
+  "performance": {
+    "kpis": [
+      { "name": "기술이전 건수", "target": "3,500건", "year": 2025 },
+      { "name": "SCI 논문 수", "target": "25,000편", "year": 2025 },
+      { "name": "특허 출원 건수", "target": "8,000건", "year": 2025 },
+      { "name": "기술료 수입", "target": "2,500억 원", "year": 2025 }
+    ],
+    "goals": [
+      { "title": "출연연 임무 중심 재정립", "period": "2024-2028", "description": "중장기계획 재정립을 통한 출연연 임무 중심 과학기술정책 대응 기반 마련" },
+      { "title": "초격차 기술 선점", "period": "2024-2028", "description": "22개 출연연 혁신·도전을 통한 국가전략기술 초격차 확보" },
+      { "title": "연구성과 사업화 혁신", "period": "2025-2028", "description": "기술사업화추진단을 중심으로 연구성과의 신속한 사업화 체계 구축" }
+    ]
+  }
+}
