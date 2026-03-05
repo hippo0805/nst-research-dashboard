@@ -22,6 +22,13 @@ export default function BudgetPage() {
         <BudgetLineChart data={budget.yearly.map(({ year, total }) => ({ year, total }))} />
         <BudgetPieChart data={pieData} year={latest.year} />
       </div>
+
+      {budget.note && (
+        <div className="bg-gray-100 rounded-xl p-5 text-sm text-gray-600">
+          <p className="font-semibold text-gray-700 mb-1">참고</p>
+          <p>{budget.note}</p>
+        </div>
+      )}
     </div>
   );
 }

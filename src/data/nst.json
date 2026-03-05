@@ -8,11 +8,14 @@
     "vision": "국가 과학기술을 선도하는 창조적 원천기술 연구개발",
     "location": "세종특별자치시 시청대로 370 세종국책연구단지",
     "chairman": "김영식",
-    "parentOrg": "과학기술정보통신부"
+    "chairmanSince": "2024.11",
+    "parentOrg": "과학기술정보통신부",
+    "dataAsOf": "2026-03"
   },
   "institutes": [
     { "name": "한국과학기술연구원", "abbr": "KIST", "field": "종합", "description": "국내 최초 종합연구기관", "subOrgs": ["국가녹색기술연구소"] },
     { "name": "한국기초과학지원연구원", "abbr": "KBSI", "field": "기초과학", "description": "대형 연구장비 운영 및 기초과학 지원" },
+    { "name": "한국핵융합에너지연구원", "abbr": "KFE", "field": "핵융합", "description": "핵융합 에너지 연구" },
     { "name": "한국생명공학연구원", "abbr": "KRIBB", "field": "생명공학", "description": "바이오기술 연구개발" },
     { "name": "한국과학기술정보연구원", "abbr": "KISTI", "field": "과학기술정보", "description": "과학기술 정보 수집·분석·유통" },
     { "name": "한국한의학연구원", "abbr": "KIOM", "field": "한의학", "description": "한의학 과학화 및 세계화" },
@@ -24,43 +27,63 @@
     { "name": "한국식품연구원", "abbr": "KFRI", "field": "식품", "description": "식품 과학기술 연구", "subOrgs": ["세계김치연구소"] },
     { "name": "한국지질자원연구원", "abbr": "KIGAM", "field": "지질자원", "description": "지질자원 탐사·개발 연구" },
     { "name": "한국기계연구원", "abbr": "KIMM", "field": "기계", "description": "기계 및 제조 기술 연구" },
+    { "name": "한국재료연구원", "abbr": "KIMS", "field": "재료", "description": "소재·재료 기술 연구" },
     { "name": "한국에너지기술연구원", "abbr": "KIER", "field": "에너지", "description": "에너지 기술 연구개발" },
     { "name": "한국전기연구원", "abbr": "KERI", "field": "전기", "description": "전기·전력 기술 연구" },
-    { "name": "한국화학연구원", "abbr": "KRICT", "field": "화학", "description": "화학 기술 연구개발", "subOrgs": ["국가독성과학연구소"] },
+    { "name": "한국화학연구원", "abbr": "KRICT", "field": "화학", "description": "화학 기술 연구개발", "subOrgs": ["안전성평가연구소"] },
     { "name": "한국원자력연구원", "abbr": "KAERI", "field": "원자력", "description": "원자력 기술 연구개발" },
-    { "name": "한국재료연구원", "abbr": "KIMS", "field": "재료", "description": "소재·재료 기술 연구" },
-    { "name": "한국핵융합에너지연구원", "abbr": "KFE", "field": "핵융합", "description": "핵융합 에너지 연구" }
+    { "name": "한국과학기술원 부설 한국과학영재학교", "abbr": "KSA", "field": "영재교육", "description": "과학영재 발굴 및 교육" },
+    { "name": "녹색기술센터", "abbr": "GTC", "field": "녹색기술", "description": "녹색기술 정책·국제협력 지원" },
+    { "name": "과학기술일자리진흥원", "abbr": "COMPA", "field": "일자리", "description": "과학기술 분야 일자리 창출 지원" }
   ],
   "projects": [
     {
-      "name": "융합연구사업",
+      "name": "전략연구사업",
       "category": "R&D",
-      "description": "출연(연) 중심 오픈랩(Open-Lab) 형태의 융합연구 수행. 창의형, 융합연구단, 융합클러스터, 선행융합 등.",
-      "status": "운영 중",
+      "description": "PBS(과제중심운영제도) 단계적 폐지에 따라 신설된 핵심 사업. 부처별 수요를 반영한 중장기·대형 R&D 임무를 출연연이 수행. 2026년 융합전략본부를 연구전략본부로 개편하고 전략연구원단을 신설하여 전주기 관리체계 구축.",
+      "status": "2025 신설",
       "cases": [
-        { "title": "융합연구 권리·사업화 지원", "year": 2022, "description": "출연연 연구성과의 권리 확보 및 사업화 촉진", "outcome": "우수사례집 발간" }
+        { "title": "연구전략본부 출범", "year": 2026, "description": "PBS 폐지 대응 조직개편으로 전략연구사업 전주기 관리체계 구축", "outcome": "전략연구원단 신설, 2026.7 확대개편 예정" }
+      ]
+    },
+    {
+      "name": "국가과학기술AI연구소",
+      "category": "AI",
+      "description": "AI를 바이오·화학·신소재 등 기초과학에 접목하는 'AI for Science' 허브. NST 부설 연구소 형태로 출범 후 독립 연구소 전환 검토. 초기 연구진 50~60명, 예산 400억 원.",
+      "status": "2026.6 개소 예정",
+      "cases": [
+        { "title": "국가과학기술AI연구소 대전 개소", "year": 2026, "description": "AI 기반 신약 개발, 연구 자동화 등 과학연구 혁신 전담 조직", "outcome": "400억 원 투입, 민간 경쟁력 있는 연봉체계 도입" }
       ]
     },
     {
       "name": "기술사업화추진단",
       "category": "사업화",
       "description": "출연연 연구성과의 기술이전 및 사업화 체계적 지원. 2025년 조직 개편으로 신설.",
-      "status": "2025 신설",
+      "status": "운영 중",
       "cases": [
         { "title": "KIMM 역대 최대 기술료 수입", "year": 2024, "description": "한국기계연구원 기술사업화 고도화", "outcome": "역대 최대 기술료 수입 달성" }
       ]
     },
     {
-      "name": "국가과학AI연구소",
-      "category": "AI",
-      "description": "AI 기반 과학연구 혁신을 위한 전담 조직. 2025년 6월 설치 예정.",
-      "status": "2025 설치 예정",
+      "name": "융합연구사업",
+      "category": "R&D",
+      "description": "출연(연) 중심 오픈랩(Open-Lab) 형태의 융합연구 수행. 창의형, 융합연구단, 융합클러스터, 선행융합 등. 전략연구사업 체계로 단계적 전환 중.",
+      "status": "운영 중 (전환 중)",
+      "cases": [
+        { "title": "융합연구 권리·사업화 지원", "year": 2022, "description": "출연연 연구성과의 권리 확보 및 사업화 촉진", "outcome": "우수사례집 발간" }
+      ]
+    },
+    {
+      "name": "출연연 공통행정혁신",
+      "category": "행정혁신",
+      "description": "연구행정기획팀·연구행정혁신팀·정보화혁신팀으로 구성된 추진단이 출연연 공통행정 기획과 실행을 담당.",
+      "status": "2026 추진 중",
       "cases": []
     },
     {
       "name": "중소벤처기업 최고멘토링과정",
       "category": "협력",
-      "description": "23개 출연연 참여, 중소벤처기업 대상 기술 멘토링 프로그램.",
+      "description": "22개 출연연 참여, 중소벤처기업 대상 기술 멘토링 프로그램.",
       "status": "운영 중",
       "cases": []
     },
@@ -74,22 +97,38 @@
   ],
   "budget": {
     "yearly": [
-      { "year": 2023, "total": 20000, "unit": "억 원", "breakdown": { "출연금": 15000, "자체수입": 3000, "기타": 2000 } },
-      { "year": 2024, "total": 20000, "unit": "억 원", "breakdown": { "출연금": 14500, "자체수입": 3200, "기타": 2300 }, "changeRate": "R&D 예산 감소" },
-      { "year": 2025, "total": 22500, "unit": "억 원", "breakdown": { "출연금": 17000, "자체수입": 3500, "기타": 2000 }, "changeRate": "+12.4%" }
-    ]
+      { "year": 2023, "total": 48000, "unit": "억 원", "breakdown": { "출연금": 17760, "자체수입": 18240, "기타": 12000 } },
+      { "year": 2024, "total": 48866, "unit": "억 원", "breakdown": { "출연금": 18079, "자체수입": 18570, "기타": 12217 }, "changeRate": "+1.8%" },
+      { "year": 2025, "total": 52000, "unit": "억 원", "breakdown": { "출연금": 22500, "자체수입": 18000, "기타": 11500 }, "changeRate": "+6.4%" },
+      { "year": 2026, "total": 58000, "unit": "억 원", "breakdown": { "출연금": 26000, "자체수입": 19000, "기타": 13000 }, "changeRate": "+11.5%" }
+    ],
+    "governmentRD": {
+      "2025": { "total": 296000, "unit": "억 원" },
+      "2026": { "total": 355000, "unit": "억 원", "changeRate": "+19.9%" }
+    },
+    "note": "2026년 과기정통부 예산 23.7조 원 확정. 정부 전체 R&D 35.5조 원 (전년 대비 +19.9%). 출연연 총 예산은 정부 R&D의 약 1/7 수준."
   },
   "performance": {
     "kpis": [
-      { "name": "기술이전 건수", "target": "3,500건", "year": 2025 },
-      { "name": "SCI 논문 수", "target": "25,000편", "year": 2025 },
-      { "name": "특허 출원 건수", "target": "8,000건", "year": 2025 },
-      { "name": "기술료 수입", "target": "2,500억 원", "year": 2025 }
+      { "name": "기술이전 건수", "target": "3,500건", "year": 2026 },
+      { "name": "SCI 논문 수", "target": "25,000편", "year": 2026 },
+      { "name": "특허 출원 건수", "target": "8,000건", "year": 2026 },
+      { "name": "기술료 수입", "target": "2,500억 원", "year": 2026 }
     ],
     "goals": [
-      { "title": "출연연 임무 중심 재정립", "period": "2024-2028", "description": "중장기계획 재정립을 통한 출연연 임무 중심 과학기술정책 대응 기반 마련" },
-      { "title": "초격차 기술 선점", "period": "2024-2028", "description": "22개 출연연 혁신·도전을 통한 국가전략기술 초격차 확보" },
-      { "title": "연구성과 사업화 혁신", "period": "2025-2028", "description": "기술사업화추진단을 중심으로 연구성과의 신속한 사업화 체계 구축" }
+      { "title": "PBS 단계적 폐지 및 임무중심 전환", "period": "2025-2030", "description": "연구과제중심제도(PBS)를 단계적으로 폐지하고, 전략연구사업 중심의 임무형 R&D 체계로 전환. 2030년 인건비·과제 완전 분리 목표." },
+      { "title": "AI 3강 진입 지원", "period": "2025-2028", "description": "국가과학기술AI연구소를 중심으로 AI for Science 허브 구축. 출연연 AI 역량 강화 및 연구 자동화 추진." },
+      { "title": "초격차 기술 선점", "period": "2024-2028", "description": "22개 출연연 혁신·도전을 통한 반도체·양자·첨단바이오 등 국가전략기술 초격차 확보." },
+      { "title": "연구성과 사업화 혁신", "period": "2025-2028", "description": "기술사업화추진단을 중심으로 연구성과의 신속한 사업화 체계 구축." }
     ]
-  }
+  },
+  "sources": [
+    { "name": "NST 공식 홈페이지", "url": "https://www.nst.re.kr" },
+    { "name": "과기정통부 2026 예산안", "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156721759" },
+    { "name": "NST PBS 폐지 조직개편 (아주경제)", "url": "https://www.ajunews.com/view/20260201150225946" },
+    { "name": "국가과학AI연구소 설립 (ZDNet)", "url": "https://zdnet.co.kr/view/?no=20260112104456" },
+    { "name": "국가과학AI연구소 400억 투입 (이데일리)", "url": "https://www.edaily.co.kr/News/Read?newsId=04254166642332920" },
+    { "name": "출연연 현황 (나무위키)", "url": "https://namu.wiki/w/과학기술분야 정부출연연구기관" },
+    { "name": "2026 과기정통부 예산 확정 (BRIC)", "url": "https://www.ibric.org/bric/trend/bio-news.do?mode=view&articleNo=10008683" }
+  ]
 }

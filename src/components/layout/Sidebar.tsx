@@ -36,7 +36,7 @@ export default function Sidebar() {
         ))}
       </nav>
       <div className="p-4 text-xs text-gray-400 border-t border-navy-light">
-        리서치 보고서 2025
+        리서치 보고서 2026
       </div>
     </aside>
   );

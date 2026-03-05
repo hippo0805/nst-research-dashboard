@@ -30,12 +30,25 @@ export default function OverviewPage() {
 
       {/* 소속 출연기관 */}
       <div>
-        <SectionTitle title="소속 출연연구기관" description={`과학기술정보통신부 산하 ${institutes.length}개 정부출연연구기관`} />
+        <SectionTitle title="소속 출연연구기관" description={`과학기술정보통신부 산하 ${institutes.length}개 정부출연연구기관 (2024년 우주항공청 출범으로 항공우주연·천문연 이관)`} />
         <div className="grid grid-cols-3 gap-4">
           {institutes.map((inst) => (
             <InstituteCard key={inst.abbr} {...inst} />
           ))}
         </div>
+      </div>
+
+      {/* 출처 */}
+      <div className="bg-gray-100 rounded-xl p-5 text-xs text-gray-500">
+        <p className="font-semibold mb-2">출처</p>
+        <ul className="space-y-1">
+          {nstData.sources.map((s) => (
+            <li key={s.name}>
+              <a href={s.url} target="_blank" rel="noopener noreferrer" className="hover:text-accent underline">{s.name}</a>
+            </li>
+          ))}
+        </ul>
+        <p className="mt-2 text-gray-400">데이터 기준일: {nstData.organization.dataAsOf}</p>
       </div>
     </div>
   );
