@@ -8,6 +8,7 @@ const navItems = [
   { href: "/", label: "기관 개요", icon: "🏛" },
   { href: "/projects", label: "주요사업", icon: "📋" },
   { href: "/budget", label: "예산·재정", icon: "💰" },
+  { href: "/global-top", label: "글로벌TOP연구단", icon: "🚀" },
   { href: "/performance", label: "성과·목표", icon: "📊" },
 ];
 

@@ -6,6 +6,7 @@ const pageTitles: Record<string, string> = {
   "/": "기관 개요",
   "/projects": "주요사업 & 사례",
   "/budget": "예산 & 재정",
+  "/global-top": "글로벌 TOP 전략연구단",
   "/performance": "성과지표 & 목표",
 };
 
