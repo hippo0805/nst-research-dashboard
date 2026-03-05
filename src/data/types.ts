@@ -30,6 +30,8 @@ export interface Project {
   category: string;
   description: string;
   status: string;
+  budget?: string;
+  source?: string;
   cases: ProjectCase[];
 }
 
